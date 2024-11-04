@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotstar Sports Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .header {
+            background-color: #6c8a9a;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .sports-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .highlights, .upcoming-matches, .popular-sports {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .highlight-item, .match-item {
+            background-color: #1c1c1c;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .highlight-title, .match-title {
+            font-size: 1.2em;
+        }
+        .match-info {
+            font-size: 0.9em;
+            color: #dddddd;
+        }
+        .watch-button {
+            display: inline-block;
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .watch-button:hover {
+            background-color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hotstar Sports</h1>
+    </div>
+    <div class="sports-container">
+        <div class="highlights">
+            <div class="section-title">Highlights</div>
+            <div class="highlight-item">
+                <div class="highlight-title">Match Highlight: Team A vs Team B</div>
+                <div class="match-info">Watch the thrilling moments from the match!</div>
+                <a href="/watch-highlight" class="watch-button">Watch Highlight</a>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-title">Match Highlight: Team C vs Team D</div>
+                <div class="match-info">Catch the best goals and saves!</div>
+                <a href="/watch-highlight" class="watch-button">Watch Highlight</a>
+            </div>
+        </div>
+
+        <div class="upcoming-matches">
+            <div class="section-title">Upcoming Matches</div>
+            <div class="match-item">
+                <div class="match-title">Team E vs Team F</div>
+                <div class="match-info">Date: November 5, 2024 | Time: 7:00 PM IST</div>
+                <a href="/watch-match" class="watch-button">Watch Live</a>
+            </div>
+            <div class="match-item">
+                <div class="match-title">Team G vs Team H</div>
+                <div class="match-info">Date: November 6, 2024 | Time: 8:00 PM IST</div>
+                <a href="/watch-match" class="watch-button">Watch Live</a>
+            </div>
+        </div>
+
+        <div class="popular-sports">
+            <div class="section-title">Popular Sports</div>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="/cricket" class="watch-button">Cricket</a></li>
+                <li><a href="/football" class="watch-button">Football</a></li>
+                <li><a href="/basketball" class="watch-button">Basketball</a></li>
+                <li><a href="/tennis" class="watch-button">Tennis</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
